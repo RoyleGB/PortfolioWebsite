@@ -1,24 +1,109 @@
-p {
+/* Centering the body content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
     font-size: 20px;
-  }
-  
-  .main-container {
+    background-color: #3498db;
+}
+
+/* Main container styling */
+.main-container {
     max-width: 600px;
-    margin: 0 auto;
     padding: 20px;
     border: 5px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Header styling with flex for image alignment */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 8px;
+    outline: #333;
+
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 180px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    margin-left: 20px; /* Space between text and image */
+}
+.projectImage {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.projectImage:hover {
+    transform: scale(3.5); /* Adjust scale for desired zoom level */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: deeper shadow on hover */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .error-message {
-    color: #ff0000;
-    font-size: 14px;
-    margin-top: 10px;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
   
-  .success-message {
-    color: #0daf22;
-    font-size: 14px;
-    margin-top: 10px;
+  li {
+    margin: 0 15px;
   }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3498db;
+  }
+
+  .downloads {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+
+  
