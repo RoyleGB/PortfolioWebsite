@@ -1,31 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Jordan Royle</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Jordan Royle | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Jordan Royle's portfolio showcasing academic and personal programming projects." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-</head>
-<body>
-    <div class="main-container">
-        <div class="header">
-            <h1>Jordan Royle's Portfolio</h1>
-            <img src="/assets/ME.jpg" alt="Jordan's Image" class="profile-image">
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="assets/ME.jpg" alt="Jordan Royle" class="profile-image" />
+        <h1>Jordan Royle</h1>
+        <p class="tagline">23-year-old Software Engineering Student • Manchester Metropolitan University</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+
+        <!-- About Me -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                Currently completing my final year of study at Manchester Metropolitan University, excited to continue my 
+                passion for programming in the near future with a graduate programme in 2025.
+            </p>
+            <p>
+                Programming language skills in Java, Javascript, Python, C, C++, GO, along with extensive frameworks and 
+                libraries including: Node.js, Express.js, SpringBoot — all shown within my academic projects and projects 
+                in my spare time, in addition to me showing great problem solving and time management skills.
+            </p>
+            <p>
+                I have a big interest in data science and A.I and how the increase of it is changing society as we know it.
+            </p>
+        </section>
+        <br>
+
+        <!-- Education -->
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Manchester Metropolitan University</strong><br>
+                    BSc (Hons) Software Engineering – Final Year<br>
+                    Expected Graduation: July 2025
+                </li>
+            </ul>
+        </section>
+        <br>
+
+        <!-- my experience -->
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <strong>Barista - Costa Coffee</strong><br>
+                    <em>June 2022 - Present</em><br>
+                    Responsibilities include: customer service, cash handling, and maintaining cleanliness of the store.
+                </li>
+            </ul>
+        </section>
+        <br>
+
+        <!-- my skills -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Java, JavaScript, Python, C, C++, Go</li>
+                <li><strong>Frameworks:</strong> Node.js, Express.js, Spring Boot</li>
+                <li><strong>Tools:</strong> Git, JUnit, AWS, SQLite</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Jordan Royle</p>
+        <div class="socials">
+            <a href="https://github.com/RoyleGB?tab=repositories" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jordanroyle12" target="_blank">LinkedIn</a>
         </div>
-        <p>Welcome to my website!</p>
-        <p>
-            Currently completing my final year of study at Manchester Metropolitan University, excited to continue my 
-            passion for programming in the near future with a graduate programme in 2025. Programming language skills in Java, 
-            Javascript, Python, C, C++, GO, along with extensive frameworks and libraries including: Node.js, Express.js, SpringBoot 
-            all shown within my academic projects and projects in my spare time, in addition to me showing great problem solving and 
-            time management skills. 
-            I have a big interest in data science and A.I and how the increase of it is changing society as we know it.</p>
-    </div>
-    <script src="script.js"></script>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
+
+
+
