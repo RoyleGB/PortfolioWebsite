@@ -12,3 +12,5 @@ images.forEach((img) => {
         img.style.transform = 'scale(1)';
     });
 });
+
+// CHNAGE MADE BY ME
