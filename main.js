@@ -1,5 +1,5 @@
 // Select all images on the page
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('projectImage');
 
 // Add hover effect to scale images
 images.forEach((img) => {
@@ -13,4 +13,3 @@ images.forEach((img) => {
     });
 });
 
-// CHNAGE MADE BY ME
